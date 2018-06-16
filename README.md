@@ -1,17 +1,19 @@
-# Hengman-Game
+# Hangman-Game
 
 
 
-Jeu de pendu
+Jeu de pendu en javascript(DOM)
 
 -Jouer : prends un mot au hasard dans une array et le convertis en tableau avec des "_" qui s'affiche dans 
 la partie violette.
 
--Tester Lettre : remplace le "_" par l'input si présent dans le mot issu du premier array;
-Incrémente en compteur avec les erreurs dont dépend un deuxième compteur pour faire changer l'image en fonction des mauvaises réponses.
+-Tester Lettre : remplace le "_" par l'input si prÃ©sent dans le mot issu du premier array;
+IncrÃ©mente en compteur avec les erreurs dont dÃ©pend un deuxiÃ¨me compteur pour faire changer l'image en fonction des mauvaises rÃ©ponses.
 S'il n'y a plus de "_", affiche = "you win"
 
-input avec .focus() : évite de cliquer dans l'input à chaque fois que l'on veut écrire;
-addEventListener avec "keypress" pour que la touche entrer soit activée. 
+input avec .focus() : Ã©vite de cliquer dans l'input Ã  chaque fois que l'on veut Ã©crire;
+addEventListener avec "keypress" pour que la touche entrer soit activÃ©e. 
 
-Les lettres déjà utilisées sont stockées dans la barre verte à droite. 
+Les lettres dÃ©jÃ  utilisÃ©es sont stockÃ©es dans la barre verte Ã  droite. 
+
+Choix du mot au clic avec une fonctionr random dans un tableau. Le mÃªme clic gÃ©nÃ¨re un nouveau tableau de longueur Ã©gale au mot avec des _ pour entrÃ©es.
